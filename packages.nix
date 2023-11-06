@@ -28,7 +28,9 @@ with pkgs; [
   _1password-gui
   bcompare
   btop
+  deno
   firefox-wayland
+  gitui
   helix
   junction
   kitty
