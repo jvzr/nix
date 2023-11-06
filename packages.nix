@@ -42,4 +42,5 @@ with pkgs; [
   vivaldi-ffmpeg-codecs
   vivaldi-gpu
   vscode
+  vscode-langservers-extracted
 ]
