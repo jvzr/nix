@@ -27,6 +27,7 @@ with pkgs; [
   # Apps
   _1password-gui
   bcompare
+  btop
   firefox-wayland
   helix
   junction
