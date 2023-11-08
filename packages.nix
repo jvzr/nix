@@ -26,21 +26,27 @@ with pkgs; [
 
   # Apps
   _1password-gui
-  bcompare
-  btop
-  deno
   firefox-wayland
-  gitui
-  helix
   junction
   kitty
   kooha
   mpv
-  musikcube
   slack-hidpi
-  termscp
   vivaldi-ffmpeg-codecs
   vivaldi-gpu
+
+  # Dev
+  deno
+  bcompare
   vscode
   vscode-langservers-extracted
+
+  # CLI
+  bat
+  btop
+  eza
+  gitui
+  helix
+  musikcube
+  termscp
 ]

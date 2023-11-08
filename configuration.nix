@@ -57,6 +57,8 @@
     packages = (import ./packages.nix pkgs);
   };
 
+  # programs.fish.enable = true;
+
   networking = {
     hostName = "fwk";
 
@@ -89,5 +91,23 @@
     configDir = "/home/jvzr/.config/syncthing";
   };
 
+  hardware.pulseaudio.enable = false;
+  security.rtkit.enable = true;
+  services.pipewire = {
+    enable = true;
+    alsa.enable = true;
+    alsa.support32Bit = true;
+    pulse.enable = true;
+    jack.enable = true;
+  };
+
+  services.printing.enable = true;
+  services.printing.drivers = [ pkgs.hplip ];
+  services.avahi = {
+    enable = true;
+    nssmdns = true;
+    openFirewall = true;
+  };
+    
   system.stateVersion = "23.05"; # Did you read the comment?
 }
