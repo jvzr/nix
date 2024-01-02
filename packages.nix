@@ -30,7 +30,9 @@ with pkgs; [
   junction
   kitty
   kooha
+  loupe
   mpv
+  onlyoffice-bin_7_5
   slack-hidpi
   vivaldi-ffmpeg-codecs
   vivaldi-gpu
