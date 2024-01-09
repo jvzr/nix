@@ -54,7 +54,7 @@
       gnome.epiphany # web browser
       gnome.file-roller # archive manager
       gnome.geary # email reader
-      gnome.gedit # text editor
+      gedit # text editor
       gnome.gnome-calendar
       gnome.gnome-characters
       gnome.gnome-characters
