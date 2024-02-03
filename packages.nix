@@ -51,4 +51,8 @@ with pkgs; [
   helix
   musikcube
   termscp
+
+  # niri
+  waybar
+  fuzzel
 ]
