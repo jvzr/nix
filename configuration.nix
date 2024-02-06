@@ -109,6 +109,6 @@
     nssmdns4 = true;
     openFirewall = true;
   };
-    
+
   system.stateVersion = "23.05"; # Did you read the comment?
 }
