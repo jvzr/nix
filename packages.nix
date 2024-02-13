@@ -32,7 +32,7 @@ with pkgs; [
   kooha
   loupe
   mpv
-  onlyoffice-bin_7_5
+  onlyoffice-bin_latest
   slack-hidpi
   vivaldi-ffmpeg-codecs
   vivaldi-gpu
