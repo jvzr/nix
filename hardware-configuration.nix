@@ -13,7 +13,7 @@
   boot.initrd.kernelModules = [ "dm-snapshot" ];
   boot.kernelModules = [ "kvm-amd" ];
   boot.extraModulePackages = [ ];
-  # boot.kernelParams = [ "amdgpu.sg_display=0" ];
+  boot.kernelParams = [ "amdgpu.sg_display=0" ];
 
   fileSystems."/" =
     {
