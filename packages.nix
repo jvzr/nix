@@ -26,6 +26,7 @@ with pkgs; [
 
   # Apps
   _1password-gui
+  eyedropper
   firefox-wayland
   junction
   kitty
@@ -50,9 +51,5 @@ with pkgs; [
   gitui
   helix
   musikcube
-  termscp
-
-  # niri
-  waybar
-  fuzzel
+  # termscp
 ]

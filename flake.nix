@@ -17,7 +17,6 @@
         modules = [
           ./configuration.nix
           ./gnome.nix
-          # ./packages.nix
         ];
       };
     };
