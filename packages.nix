@@ -51,5 +51,6 @@ with pkgs; [
   gitui
   helix
   musikcube
+  nh
   # termscp
 ]
