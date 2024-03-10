@@ -8,6 +8,8 @@
     '';
   };
 
+  environment.sessionVariables.FLAKE = "/home/jvzr/NixOS";
+
   imports =
     [
       ./hardware-configuration.nix
