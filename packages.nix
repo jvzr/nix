@@ -49,6 +49,7 @@ with pkgs; [
   btop
   eza
   gitui
+  gitu
   helix
   musikcube
   nh
